@@ -1,0 +1,27 @@
+body {
+  font: 16px/1.5em 'Consolas','Helvetica Neue', Helvetica, Arial, "Microsoft JhengHei Bold";
+  color: #333;
+  font-weight: 300;
+}
+
+/*
+   Demo purposes only
+  */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 580px) {
+  body {
+    padding: 30px 12px;
+    max-width: none;
+  }
+}
+
